@@ -1,0 +1,12 @@
+{
+  "code": 0,
+  "list": [{
+    "name": "   li lei     ",
+    "addr": "北京朝阳"
+  }, {
+    "name": "   han meimei    ",
+    "addr": "南京市"
+  }],
+  "price": 69,
+  "rate": 7.1
+}

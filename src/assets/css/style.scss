@@ -1,0 +1,83 @@
+@import "./dimens.scss";
+@import "./colors.scss";
+@import "./reset";
+
+//文本最多两行展示
+
+.text-line-2{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: break-word;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	display: -webkit-box;
+}
+//单行文本
+.single-row-text{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: inline-block;
+}	
+.z-index-max{
+	z-index: 99999;
+}
+.z-index-2{
+	z-index: 2;
+}
+//三角形
+.caret{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-top: px2rem(8) solid $mainColor;
+	border-left: px2rem(6) solid transparent;
+	border-right: px2rem(6) solid transparent;
+}
+//遮盖层
+.cover{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0,0,0,.4);
+	left: 0;
+}	
+//提交
+.payment{
+	width: 90%;
+	height: px2rem(46);
+	line-height: px2rem(46);
+	margin-left: 5%;
+	display: block;
+	background-color: $mainColor;
+	border-radius: px2rem(50);
+	color: #fff;
+	text-align: center;
+}	
+
+//输入框
+.input-container{
+	height: px2rem(48);
+	padding: $marginSize;
+	overflow: hidden;
+	margin-top: $marginSize;
+	background-color: #fff;
+	border-bottom:px2rem(1) solid $lineColor;
+	box-sizing: border-box;
+	
+	input{
+		width: 100%;
+		height: 100%;
+		font-size: $titleSize;
+		outline: none;
+		border: none;
+	}
+}	
+
+//iphonex 顶部危险区
+.inphonex-top{
+	padding-top:44px ;
+}
+.inphonex-bottom{
+	padding-top:34px ;
+}

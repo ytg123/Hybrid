@@ -1,0 +1,8 @@
+{
+  "code": "0",
+  "allAuthors": {
+    "fiction": ["Agatha Chars", "b", "C", "DFS"],
+    "science": ["Neal", "Arthur", "DSSS", "ESSS"],
+    "fantasy": ["J.R.S Tolkes", "J.M.Rowle"]
+  }
+}
